@@ -31,3 +31,9 @@ app.post('/quotes', (req, res) => {
     res.redirect('/');
   });
 });
+
+app.get('/quotes', (req, res) => {
+  db.collection('quotes').find().toArray(function(err, results) {
+    console.log(results);
+  });
+});
