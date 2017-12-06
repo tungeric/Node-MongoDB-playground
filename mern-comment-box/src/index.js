@@ -1,11 +1,7 @@
-import registerServiceWorker from './registerServiceWorker';
-
-import React from ‘react’;
-import ReactDOM from ‘react - dom’;
-import CommentBox from ‘./CommentBox’;
+import React from 'react';
+import ReactDOM from 'react-dom';
+import CommentBox from './CommentBox';
 ReactDOM.render(
   <CommentBox />,
-  document.getElementById(‘root’)
+  document.getElementById('root')
 );
-
-registerServiceWorker();
