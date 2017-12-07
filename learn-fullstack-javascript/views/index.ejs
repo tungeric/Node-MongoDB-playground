@@ -1,6 +1,9 @@
 <%- include('header') -%>
   <body>
-    <%= Math.random() %>
-    <%= content %>
+    <script src="/bundle.js" charset="utf-8"></script>
+    <div id="root">
+      <%= Math.random() %>
+      <%= content %>
+    </div>
   </body>
 <%- include('footer') -%>
