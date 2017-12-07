@@ -12,6 +12,7 @@ npm install --save-dev webpack
 npm install --save-dev babel-cli babel-loader babel-preset-es2015 babel-preset-stage-2 babel-preset-react
 npm install --save-dev eslint eslint-plugin-react babel-eslint
 
+
 3. Create some folders
 
 mkdir src
@@ -21,6 +22,7 @@ touch api/index.js
 touch public/index.js
 touch src/index.js
 touch server.js
+touch config.js
 
 4. Fix package.json scripts to include:
 ```
@@ -53,3 +55,6 @@ module.exports = {
   "presets": ["react", "es2015", "stage-2"]
 }
 ```
+
+7. vi ~/.bash_profile, and inside:
+export PATH=$PATH:./node_modules/.bin
