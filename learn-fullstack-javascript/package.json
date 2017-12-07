@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.5.7",
     "express": "^4.16.2",
     "mongodb": "^2.2.33",
     "react": "^15.3.2",
@@ -26,6 +27,6 @@
     "eslint": "^4.12.1",
     "eslint-plugin-react": "^7.5.1",
     "nodemon": "^1.12.5",
-    "webpack": "^3.10.0"
+    "webpack": "^2"
   }
 }
