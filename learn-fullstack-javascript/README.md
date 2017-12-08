@@ -12,6 +12,10 @@ npm install --save-dev webpack
 npm install --save-dev babel-cli babel-loader babel-preset-es2015 babel-preset-stage-2 babel-preset-react
 npm install --save-dev eslint eslint-plugin-react babel-eslint
 
+(later in the game...)
+npm install --save prop-types
+npm install --save json-loader
+
 
 3. Create some folders
 
